@@ -1,7 +1,7 @@
 import os
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 def remove_bgd(img, points):
     b,g,r = cv2.split(img)       # get b,g,r
